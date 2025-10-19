@@ -1,0 +1,5 @@
+FROM theflash2k/pwn-chal@sha256:2e8cbec30f9c4b7ac80cc5bd97e74ab046ae4aea8344866aa225df21de6fd9f3
+
+ENV CHAL_NAME=calc-aas
+COPY ${CHAL_NAME} .
+COPY flag.txt .
